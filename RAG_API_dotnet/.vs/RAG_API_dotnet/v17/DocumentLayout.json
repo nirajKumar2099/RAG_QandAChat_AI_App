@@ -1,0 +1,185 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69C38F59-8AA6-488A-8740-6C53BAA2E7CC}|RAG_API_dotnet\\RAG_API_dotnet.csproj|e:\\rag_qandachat_ai_app\\rag_api_dotnet\\rag_api_dotnet\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{69C38F59-8AA6-488A-8740-6C53BAA2E7CC}|RAG_API_dotnet\\RAG_API_dotnet.csproj|solutionrelative:rag_api_dotnet\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C38F59-8AA6-488A-8740-6C53BAA2E7CC}|RAG_API_dotnet\\RAG_API_dotnet.csproj|e:\\rag_qandachat_ai_app\\rag_api_dotnet\\rag_api_dotnet\\application\\services\\service\\ragservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C38F59-8AA6-488A-8740-6C53BAA2E7CC}|RAG_API_dotnet\\RAG_API_dotnet.csproj|solutionrelative:rag_api_dotnet\\application\\services\\service\\ragservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C38F59-8AA6-488A-8740-6C53BAA2E7CC}|RAG_API_dotnet\\RAG_API_dotnet.csproj|e:\\rag_qandachat_ai_app\\rag_api_dotnet\\rag_api_dotnet\\controllers\\ragcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C38F59-8AA6-488A-8740-6C53BAA2E7CC}|RAG_API_dotnet\\RAG_API_dotnet.csproj|solutionrelative:rag_api_dotnet\\controllers\\ragcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C38F59-8AA6-488A-8740-6C53BAA2E7CC}|RAG_API_dotnet\\RAG_API_dotnet.csproj|e:\\rag_qandachat_ai_app\\rag_api_dotnet\\rag_api_dotnet\\application\\services\\interface\\iragservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C38F59-8AA6-488A-8740-6C53BAA2E7CC}|RAG_API_dotnet\\RAG_API_dotnet.csproj|solutionrelative:rag_api_dotnet\\application\\services\\interface\\iragservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C38F59-8AA6-488A-8740-6C53BAA2E7CC}|RAG_API_dotnet\\RAG_API_dotnet.csproj|e:\\rag_qandachat_ai_app\\rag_api_dotnet\\rag_api_dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C38F59-8AA6-488A-8740-6C53BAA2E7CC}|RAG_API_dotnet\\RAG_API_dotnet.csproj|solutionrelative:rag_api_dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C38F59-8AA6-488A-8740-6C53BAA2E7CC}|RAG_API_dotnet\\RAG_API_dotnet.csproj|e:\\rag_qandachat_ai_app\\rag_api_dotnet\\rag_api_dotnet\\models\\uploadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C38F59-8AA6-488A-8740-6C53BAA2E7CC}|RAG_API_dotnet\\RAG_API_dotnet.csproj|solutionrelative:rag_api_dotnet\\models\\uploadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C38F59-8AA6-488A-8740-6C53BAA2E7CC}|RAG_API_dotnet\\RAG_API_dotnet.csproj|e:\\rag_qandachat_ai_app\\rag_api_dotnet\\rag_api_dotnet\\domain\\entities\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C38F59-8AA6-488A-8740-6C53BAA2E7CC}|RAG_API_dotnet\\RAG_API_dotnet.csproj|solutionrelative:rag_api_dotnet\\domain\\entities\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C38F59-8AA6-488A-8740-6C53BAA2E7CC}|RAG_API_dotnet\\RAG_API_dotnet.csproj|e:\\rag_qandachat_ai_app\\rag_api_dotnet\\rag_api_dotnet\\models\\questionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C38F59-8AA6-488A-8740-6C53BAA2E7CC}|RAG_API_dotnet\\RAG_API_dotnet.csproj|solutionrelative:rag_api_dotnet\\models\\questionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C38F59-8AA6-488A-8740-6C53BAA2E7CC}|RAG_API_dotnet\\RAG_API_dotnet.csproj|e:\\rag_qandachat_ai_app\\rag_api_dotnet\\rag_api_dotnet\\rag_api_dotnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{69C38F59-8AA6-488A-8740-6C53BAA2E7CC}|RAG_API_dotnet\\RAG_API_dotnet.csproj|solutionrelative:rag_api_dotnet\\rag_api_dotnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C38F59-8AA6-488A-8740-6C53BAA2E7CC}|RAG_API_dotnet\\RAG_API_dotnet.csproj|e:\\rag_qandachat_ai_app\\rag_api_dotnet\\rag_api_dotnet\\rag_api_dotnet.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{69C38F59-8AA6-488A-8740-6C53BAA2E7CC}|RAG_API_dotnet\\RAG_API_dotnet.csproj|solutionrelative:rag_api_dotnet\\rag_api_dotnet.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\RAG_API_dotnet\\.gitignore",
+              "RelativeDocumentMoniker": "RAG_API_dotnet\\.gitignore",
+              "ToolTip": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\RAG_API_dotnet\\.gitignore",
+              "RelativeToolTip": "RAG_API_dotnet\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-04-17T18:22:00.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RagService.cs",
+              "DocumentMoniker": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\RAG_API_dotnet\\Application\\Services\\Service\\RagService.cs",
+              "RelativeDocumentMoniker": "RAG_API_dotnet\\Application\\Services\\Service\\RagService.cs",
+              "ToolTip": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\RAG_API_dotnet\\Application\\Services\\Service\\RagService.cs",
+              "RelativeToolTip": "RAG_API_dotnet\\Application\\Services\\Service\\RagService.cs",
+              "ViewState": "AgIAAAEAAAAwMzMzMzMrwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T17:34:42.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRagService.cs",
+              "DocumentMoniker": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\RAG_API_dotnet\\Application\\Services\\Interface\\IRagService.cs",
+              "RelativeDocumentMoniker": "RAG_API_dotnet\\Application\\Services\\Interface\\IRagService.cs",
+              "ToolTip": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\RAG_API_dotnet\\Application\\Services\\Interface\\IRagService.cs",
+              "RelativeToolTip": "RAG_API_dotnet\\Application\\Services\\Interface\\IRagService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T17:33:38.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QuestionRequest.cs",
+              "DocumentMoniker": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\RAG_API_dotnet\\Models\\QuestionRequest.cs",
+              "RelativeDocumentMoniker": "RAG_API_dotnet\\Models\\QuestionRequest.cs",
+              "ToolTip": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\RAG_API_dotnet\\Models\\QuestionRequest.cs",
+              "RelativeToolTip": "RAG_API_dotnet\\Models\\QuestionRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T16:57:38.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UploadRequest.cs",
+              "DocumentMoniker": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\RAG_API_dotnet\\Models\\UploadRequest.cs",
+              "RelativeDocumentMoniker": "RAG_API_dotnet\\Models\\UploadRequest.cs",
+              "ToolTip": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\RAG_API_dotnet\\Models\\UploadRequest.cs",
+              "RelativeToolTip": "RAG_API_dotnet\\Models\\UploadRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T16:53:59.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Document.cs",
+              "DocumentMoniker": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\RAG_API_dotnet\\Domain\\Entities\\Document.cs",
+              "RelativeDocumentMoniker": "RAG_API_dotnet\\Domain\\Entities\\Document.cs",
+              "ToolTip": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\RAG_API_dotnet\\Domain\\Entities\\Document.cs",
+              "RelativeToolTip": "RAG_API_dotnet\\Domain\\Entities\\Document.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T16:52:46.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\RAG_API_dotnet\\Program.cs",
+              "RelativeDocumentMoniker": "RAG_API_dotnet\\Program.cs",
+              "ToolTip": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\RAG_API_dotnet\\Program.cs",
+              "RelativeToolTip": "RAG_API_dotnet\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T16:47:16.131Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RagController.cs",
+              "DocumentMoniker": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\RAG_API_dotnet\\Controllers\\RagController.cs",
+              "RelativeDocumentMoniker": "RAG_API_dotnet\\Controllers\\RagController.cs",
+              "ToolTip": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\RAG_API_dotnet\\Controllers\\RagController.cs",
+              "RelativeToolTip": "RAG_API_dotnet\\Controllers\\RagController.cs",
+              "ViewState": "AgIAAA8AAADgzMzMzMwkwBoAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T17:39:28.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RAG_API_dotnet.csproj",
+              "DocumentMoniker": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\RAG_API_dotnet\\RAG_API_dotnet.csproj",
+              "RelativeDocumentMoniker": "RAG_API_dotnet\\RAG_API_dotnet.csproj",
+              "ToolTip": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\RAG_API_dotnet\\RAG_API_dotnet.csproj",
+              "RelativeToolTip": "RAG_API_dotnet\\RAG_API_dotnet.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-17T16:49:03.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RAG_API_dotnet.http",
+              "DocumentMoniker": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\RAG_API_dotnet\\RAG_API_dotnet.http",
+              "RelativeDocumentMoniker": "RAG_API_dotnet\\RAG_API_dotnet.http",
+              "ToolTip": "E:\\RAG_QandAChat_AI_App\\RAG_API_dotnet\\RAG_API_dotnet\\RAG_API_dotnet.http",
+              "RelativeToolTip": "RAG_API_dotnet\\RAG_API_dotnet.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-04-17T16:46:11.698Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
