@@ -1,0 +1,72 @@
+/ask-question (MAIN ENTRY POINT)
+User Question
+   ↓
+(1) Embedding generate
+   ↓
+(2) /search-context call
+   ↓
+(3) Context mil gaya
+   ↓
+(4) LLM ko bhejo
+   ↓
+Final Answer return
+____________________________________________________________________
+____________________________________________________________________
+2. /search-context
+Embedding
+   ↓
+DB (pgvector search)
+   ↓
+Top 5 relevant content
+
+_____________________________________________________________________
+_____________________________________________________________________
+3. /upload-document
+
+PDF / Text
+   ↓
+Chunking
+   ↓
+Embedding
+   ↓
+DB me store
+_________________________________________________________________________
+
+| Step             | Work done by                             |
+| ---------------- | ---------------------------------------- |
+| User Question    | `/ask-question`                          |
+| Embedding        | `/ask-question` (Python API call karega) |
+| Vector Search    | `/search-context`                        |
+| Context mil gaya | `/search-context` return karega          |
+| LLM call         | `/ask-question`                          |
+| Final Answer     | `/ask-question`                          |
+
+___________________________________________________________________________
+
+#Visual Flow (Real System)
+Frontend (Streamlit)
+        ↓
+   /ask-question
+        ↓
+   (Embedding)
+        ↓
+   /search-context
+        ↓
+   PostgreSQL (pgvector)
+        ↓
+   Context 
+        ↓
+   LLM (Ollama / OpenAI)
+        ↓
+   Final Answer
+
+
+Q: How does your RAG pipeline work?
+
+Answer:
+
+The /ask-question API orchestrates the flow.
+It generates the query embedding, calls the /search-context API 
+to retrieve relevant documents using pgvector similarity search,
+and then sends the retrieved context along with the user query to the 
+LLM to generate the final response.

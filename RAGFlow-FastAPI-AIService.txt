@@ -1,0 +1,22 @@
+your question:
+"Patient has fever"
+ (vector)
+"Patient has fever"
+   ↓
+[0.12, 0.45, 0.98, ... 384 numbers]
+
+______________________________________________
+.NET API
+   ↓ (text bhejta hai)
+Python FastAPI (Embedding Service)
+   ↓
+Sentence Transformer Model
+   ↓
+Vector (384 numbers)
+   ↓
+Back to .NET
+
+______________________________________________
+Just a small Python server (API)
+take input as → text
+give Output as → embedding

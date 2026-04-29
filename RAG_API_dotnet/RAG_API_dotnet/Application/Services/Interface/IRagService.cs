@@ -2,7 +2,8 @@
 {
     public interface IRagService
     {
-        Task<string> UploadDocument(string content);
+        Task<string> UploadDocument(IFormFile file);
         Task<string> AskQuestion(string question);
+        Task<List<string>> SearchContextAsync(string Queryforembedding);
     }
 }

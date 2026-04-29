@@ -12,6 +12,16 @@ builder.Services.AddSwaggerGen();
 
 // Register Services
 builder.Services.AddScoped<IRagService, RagService>();
+//
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        policy => policy.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+});
+
+
 
 var app = builder.Build();
 
@@ -27,5 +37,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+//
+app.UseCors("AllowAll");
 
 app.Run();

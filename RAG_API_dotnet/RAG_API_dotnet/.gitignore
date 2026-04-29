@@ -2,7 +2,11 @@ bin/
 obj/
 .vs/
 .vscode/
+
 *.user
 *.suo
 *.log
-.env
+*.env
+
+# keep important json
+appsettings.Development.json
