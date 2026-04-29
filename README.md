@@ -36,10 +36,8 @@ Designed for real-world enterprise scenarios where knowledge is scattered:
 • pypdf, pytesseract, PIL → document & image processing
 • httpx, .NET HttpClient → service communication
 
+Architecture flow
 
-## 🏗️ Architecture Diagram
-
-```mermaid
 flowchart LR
 
     User[👤 User] --> UI[💻 Streamlit Frontend]
@@ -100,7 +98,7 @@ cd ai-service
 
 Activate virtual environment:
 
-venv\Scripts\activate   # Windows
+venv\Scripts\activate.ps1   # Windows
 # source venv/bin/activate   # Mac/Linux
 
 Install dependencies (if not already):
@@ -110,7 +108,7 @@ pip install -r requirements.txt
 Run FastAPI:
 
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
-
+    
 👉 Runs on: http://localhost:8000
 
 ⚙️ Step 3: Start .NET Backend API
